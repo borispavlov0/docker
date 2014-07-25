@@ -1,0 +1,20 @@
+{
+    "name": "boris/docker",
+    "type": "library",
+    "description": "A wrapper component around Docker with easy to manage configuration.",
+    "authors": [
+        {
+            "name": "Boris Pavlov",
+            "email": "borispavlov0@gmail.com"
+        }
+    ],
+    "require": { 
+        "symfony/process": "2.5.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Boris\\Component\\Docker\\": ""
+        }
+    },
+    "target-dir": "Boris/Component/Docker"
+}
